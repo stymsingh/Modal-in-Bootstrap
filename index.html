@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Studying Modals</h1>
+        <p class="text-center"> <a href="#" data-target="#login-modal" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login Here</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="login-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <img id ="img_logo" class="img-thumbnail" src="images/logo.png"  alt="logo" />
+          </div>
+
+          <div id="div-forms">
+          <form>
+            <div class="modal-body">
+            <div> Enter your login details:</div>
+            <input type="text" class="form-control" placeholder="email">
+            <input type="password" class="form-control" placeholder="password" required>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">Remember Me</input>
+              </label>
+            </div>
+            </div>
+            <div class="modal-footer">
+              <div class="row">
+                <div class="col-sm-6">
+                     <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button> <!--btn-block will make it take the entire 6 column   -->
+                </div>
+                <div class="col-sm-6">
+                     <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                </div>
+              </div>
+            </div>
+          </form>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+ <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</html>
